@@ -5,7 +5,7 @@ services:
     build: .
     command: npm run debug
     volumes:
-      - /home/cwork4/projects/l-style-services
+      - /home/cwork4/projects/l-style-services:/usr/src/app
     ports:
       - "3000:3000"
       - "5858:5858"
